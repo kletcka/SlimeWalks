@@ -1,16 +1,13 @@
 import pygame
-
 import random
 import objects
-import os.path
 
 
 WIDTH = 600
 HEIGHT = 600
-pos = 100, 100
-get = False
-col = None
-pygame.display.set_caption("GrassRun")
+
+
+pygame.display.set_caption("Slime")
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()
 list_f = []
@@ -18,12 +15,19 @@ for i in [0,200,400]:
     for j in [0,200,400]:
         list_f.append(objects.Field(i, j))
 slime = objects.Slime()
+
+
+
 done = False
+get = False
+col = None
+pos = 100, 100
+
+
 while not done:
     screen.fill((0,0,0))   
     clock.tick(60)
     
-
 
     for i in pygame.event.get():
             if i.type == pygame.QUIT:
@@ -37,10 +41,7 @@ while not done:
                             get = True
                             col = i
                             
-                            
-                
-
-    
+                                          
     for i in list_f:
         i.draw(screen)
 
@@ -49,12 +50,11 @@ while not done:
     if get == True:
         slime.move(    (    int (pos[0])   ,  int (pos[1])    ))
 
+
     if slime.get() == False:
         get = False
         list_f[col].change()
         slime.iss = None
-
-
 
 
     pygame.display.flip()
