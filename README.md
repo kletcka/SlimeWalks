@@ -1,6 +1,6 @@
 # SlimeWalks
 Не игра. Можно тыкать.
-![Слизень](https://avatars.mds.yandex.net/get-pdb/2795708/3854c8d6-8348-416b-bfd3-7cb35286d324/s1200)
+![Слизень](https://avatars.mds.yandex.net/get-pdb/2449779/ba132549-d5f8-4ebb-9b53-a096f0da09ed/s1200)
 ## Как играть
   
 Игра:  
