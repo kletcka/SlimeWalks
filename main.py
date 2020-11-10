@@ -11,9 +11,9 @@ pygame.display.set_caption("Slime")
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()
 list_f = []
-for i in [0,200,400]:
-    for j in [0,200,400]:
-        list_f.append(objects.Field(i, j))
+for i in range(0,10):
+    for j in range(0,10):
+        list_f.append(objects.Field(i*60, j*60))
 slime = objects.Slime()
 
 
@@ -48,7 +48,7 @@ while not done:
 
     slime.draw(screen)
     if get == True:
-        slime.move(    (    int (pos[0])   ,  int (pos[1])    ))
+        slime.move(    (int (pos[0]),  int (pos[1])))
 
 
     if slime.get() == False:
