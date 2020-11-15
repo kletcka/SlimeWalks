@@ -1,7 +1,7 @@
 # SlimeWalks
-Игра. Можно тыкать.
-![Крестик](https://avatars.mds.yandex.net/get-pdb/2714303/2e63bedf-ff9d-4a57-ae70-4f06b988e88b/s1200)
-## Как играть
+Игра. Можно тыкать.   
+![Слизень](https://avatars.mds.yandex.net/get-pdb/2449779/ba132549-d5f8-4ebb-9b53-a096f0da09ed/s1200)   
+## Как играть 
   
 Игра:  
 •Вы можете управлять слизнем, нажимая на поля    
